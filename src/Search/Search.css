@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2), 0px -1px 5px rgba(0, 0, 0, 0.19);
+    position: fixed;
+    margin-top: 63px;
+   overflow-x: auto;
+}
+.search .title{
+    margin-top: 30px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: seagreen;
+}
+.supplier-buyer{
+   
+    margin-top: 69px;
+    
+
+}
+.supplier-buyer .supplier{
+
+    margin-left: 250px;
+    border-radius: 20px 2px 2px 20px;
+    height: 35px;
+    width: 250px;
+    background-color: #fff;
+    border-color: seagreen;
+    color: seagreen;
+    
+
+}
+.supplier-buyer .buyer{
+
+    margin-left: 10px;
+    border-radius: 2px 20px 20px 2px;
+    height: 35px;
+    width: 250px;
+    background-color: #fff;
+    border-color: seagreen;
+    color: seagreen;
+    text-align: center;
+    
+
+}
+.suppFliter-section{
+   
+    
+    
+  
+}
+.supplier-filter{
+    margin-top: 25px;
+    border-style: solid;
+   border-color:#fff;
+    border-radius: 5px;
+    width: 10px;
+    height: 100px;
+    margin-left: 88px;
+   
+   
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2), 0px -1px 5px rgba(0, 0, 0, 0.19);
+}
+.dropdown{
+   
+    
+    width: 50%;
+}
+.supplier-filter h2{
+
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: seagreen;
+}
+.supplier-filter .prd-btn{
+    background-color: #fff;
+    color: seagreen;
+    margin-left: 30px;
+    border-color: #fff;
+    margin-top: 10px;
+}
+ .aply-filter{
+
+    
+    border-radius: 20px 20px 20px 20px;
+    /* height: 35px; */
+    /* width: 250px; */
+    background-color: #fff;
+    border-color: seagreen;
+    color: seagreen;
+
+}
+.btn-filter{
+    
+
+}
+.search-fill{
+   
+    background-color:seagreen ;
+   
+}
+.search-section{
+    padding-left: 165px;
+}
+.filter-search{
+    margin-top: 15px;
+   
+    
+}
+.filter-search .search-box input{
+
+    height: 5px;
+   
+}
+.search-buyer{
+    
+    width: 100%;
+}
+.product-Details{
+
+    
+    height: 100%;
+    width: 100%;
+}
+.product-Details .product{
+    margin-top: 25px;
+    border-style: solid;
+   border-color: #fff;
+    border-radius: 5px;
+   
+    height: 351px;
+    width: 254px;
+    margin-left: 88px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2), 0px -1px 5px rgba(0, 0, 0, 0.19);
+}
+.product .char-user{
+    background-color: rgb(167 160 160);
+    height: 66px;
+    width: 64px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 10px;
+}
+.product .char-user .user{
+    border-color: seagreen;
+    color:#fff;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.user-title{
+
+    margin-left: 85px;
+    margin-top: -70px;
+   
+    height: 65px;
+
+
+}
+.user-title h1{
+    margin-top: 7px;
+   
+    font-size: 15px;
+    font-weight: 500;
+    color: seagreen
+}
+.user-title p{
+   
+    font-size: 12px;
+    font-weight: 500;
+    color: seagreen
+}
+.user-title h6{
+   
+    font-size: 12px;
+    font-weight: 500;
+    color: seagreen;
+    margin-top: -13px;
+}
+.user-requirement h1{
+    margin-top: 7px;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    color: seagreen
+}
+.req-details h1{
+    margin-top: 7px;
+   
+    font-size: 15px;
+    font-weight: 500;
+    color: seagreen;
+    padding: 5px;
+}
+.req-details .cost{
+    margin-left: 167px;
+    margin-top: -37px;
+}
+.product-icon
+{
+}
+.product-icon .user{
+    
+    color: rgb(167 160 160);
+    
+
+}
+
+.BiChat{
+    padding-left: 5px;
+    margin-left: 93px;
+    margin-top: -22px;
+} 
+.BiShareAlt{
+    padding-left: 5px;
+    margin-left: 192px;
+    margin-top: -26px;
+} 
+.BiBookmark{
+    padding-left: 5px;
+    margin-left: 275px;
+    margin-top: -21px;
+} 
+
+.product{
+    height: 5px;
+    width: 165px;
+    padding-left: 40px;
+}
+.Quantity{
+    height: 5px;
+    margin-top: -5px;
+    width: 113px;
+    margin-left: 185px;
+}
+.Cost{
+    height: 5px;
+    width: 121px;
+    margin-top: -5px;
+    margin-left: 310px;
+
+}
+.Lead{
+    height: 5px;
+    width: 124px;
+    margin-left: 437px;
+    margin-top: -5px;
+}
+.Rating{
+    height: 5px;
+    width: 114px;
+    margin-left: 572px;
+    margin-top: -5px;
+}
+.location{
+    height: 5px;
+    width: 124px;
+    margin-left: 695px;
+    margin-top: -5px;
+}
+.filters-items h1{
+
+    
+   
+    font-size: 15px;
+    font-weight: 500;
+    color: seagreen;
+    padding: 5px;
+}
+.selected-filter p{
+
+    margin-top: 5px;
+    margin-left: -10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: seagreen;
+    padding: 5px;
+    
+}
+.items-section{
+    margin-top: 20px;
+    padding-left: 160px;
+    width: 90%;
+}
+
+.selected-filter a{
+    text-decoration: none;
+    color: seagreen;
+}
+.post-req-btn{
+
+    margin-top: 15px;
+    
+}
+.filter-search .input-group::before{
+    content: "";
+    display: block;
+    width: 108px;
+    height: 37px;
+    background: seagreen;
+    bottom: 0px;
+    left: 0px;
+    margin-left: -10px;
+   
+    
+    border-radius: 20px 2px 2px 20px;
+   
+   
+   
+    
+}
