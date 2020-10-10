@@ -162,7 +162,7 @@ clearProductSelection()
   this.setState({selectedQuantity:null});
   this.setState({quantityFiltered:''});
   this.setState({clearAll:""});
-  const url=`http://localhost:8000/api/v1/product/`;
+  const url=`https://limitless-tundra-61350.herokuapp.com/api/v1/product/`;
   console.log(url);
  axios.get(url).then(response=>{
   this.setState({
@@ -177,7 +177,7 @@ clearProductSelection()
   {
 
     
-    const url=`http://localhost:8000/api/v1/product/${this.state.buyerName}`;
+    const url=`https://limitless-tundra-61350.herokuapp.com/api/v1/product/${this.state.buyerName}`;
     console.log(url);
    axios.get(url).then(response=>{
     this.setState({
@@ -190,7 +190,7 @@ clearProductSelection()
   fetchProductByFilter()
   {
       let suburl=`?`;
-      let url=`http://localhost:8000/api/v1/product/`;
+      let url=`https://limitless-tundra-61350.herokuapp.com/api/v1/product/`;
       if(this.state.selectedProduct!=null)
       {
         suburl=suburl+`product_name=${this.state.selectedProduct.value}`
@@ -210,7 +210,7 @@ clearProductSelection()
       // let url="";
       if(suburl)
        {
-         url=`http://localhost:8000/api/v1/product/${suburl}`;
+         url=`https://limitless-tundra-61350.herokuapp.com/api/v1/product/${suburl}`;
       }
       
     
